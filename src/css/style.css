@@ -1,0 +1,232 @@
+body {
+    background: #e6e9ec;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background: #5586c2;
+    padding: 15px 0;
+    box-shadow: 0 10px 10px 0 #ced1d4;
+}
+
+.box {
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#logo-branca, #logo-preta {
+    width: 31.09px;
+    height: 48px;
+}
+
+.chaves-de-temas {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    right: 0;
+    background: none;
+}
+
+.botao-tema-DN {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.botao-tema-DN img {
+    height: 100%;
+
+}
+
+
+main {
+    position: relative;
+    width: 1050px;
+    height: 620px;
+    margin: 0 auto;
+}
+
+.entrada_de_texto {
+    display: inline-block;
+    position: absolute;
+    width: 65%;
+    margin: 5% 5% 0 0;
+    
+}
+
+.recebe-texto{
+    display: block;
+}
+
+textarea {
+    font-size: 32px;
+    color: #0A3871;
+    text-transform: lowercase;
+    border-width: 0;
+    border-image:none;
+    border-style: none;
+    padding: 60px 0 20px 0;
+    margin: 0 0 20px 0;
+    resize: none;
+    outline: none;
+    background: none;
+    font-family: 'Inter', sans-serif;
+}
+
+textarea::placeholder {
+    opacity: 0.5;
+    text-transform: none;
+}
+
+#exclamacao {
+    width: 14px;
+    height: 14px;
+}
+
+.aviso-restricao {
+    display: block;
+    margin-bottom: 20px;
+    color: #868E96;
+}
+
+#texto-aviso {
+    display: inline;
+}
+
+#caixa-botoes-CD {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 328px;
+    height: 87px;
+    box-sizing: border-box;
+}
+
+.botoes button {
+
+    font-size: 18px;
+    display: inline;
+    width: 308px;
+    height: 67px;
+    border-radius: 26px;
+    border: 1px solid #0A3871;
+    color: #FFFFFF;
+    background:#0A3871;
+    box-sizing: content-box;
+    padding: 0px;
+    transition: transform 200ms linear, background 1s;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0 #b7babd;
+    
+}
+
+#descriptografar {
+    background: none;
+    color:  #0A3871;
+}
+
+.botoes button:hover, #copiar:hover{
+    transform: scale(1.05);
+}
+
+#criptografar:hover {
+    background: #0A3871;
+}
+
+.saida-de-texto {
+    float:right;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    top: 0;
+    right: 0;
+    text-align: center;
+    width: 33%;
+    height: 560px;
+    border-radius: 32px;
+    color: #495057;
+    padding: 0 40px;
+    margin: 3% 0 0 0;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px 0 #ced1d4;
+    
+
+}
+
+#nenhuma-mensagem {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343A40;
+    margin: 40px 0;
+}
+
+
+#menino-lupa {
+    width: 100%;
+    height: auto;
+}
+
+#modo-texto-codificado {
+    width: 100%;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto_final {
+    text-align: left;
+    background: #FFFFFF;
+    color: #495057;
+    font-size: 24px;
+    width: 100%;
+    height: 383px;
+    overflow-y: auto;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+#caixa-botao-copiar {
+    width:100%;
+    display:flex;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+#copiar {
+    font-size: 18px;
+    padding: 0px;
+    width: 260px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: none;
+    color:  #0A3871;
+    box-sizing: content-box;
+    transition: transform 200ms linear, background 1s;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px 0 #b7babd;
+}
+
+footer {
+    background: #5586c2;
+    color: #FFFFFF; 
+    padding: 25px 0 26px 0;
+    text-align: center;
+}
+.footer__logo {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
